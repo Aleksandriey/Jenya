@@ -1,0 +1,108 @@
+.conNum {
+    text-align: center;
+}
+.numbone {
+    width: 200px;
+    height: 30px;
+    background: orange;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+.numsec {
+    width: 200px;
+    height: 30px;
+    background: orange;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+body {
+    background-color: black;
+}
+.btnPlus {
+background: grey;
+width: 50px; 
+height: 30px;
+border-radius: 5px;
+/* margin: 0 auto;
+display: block; */
+}
+.btnPlus:hover {
+    background: green;
+    transition: 0,5s;
+    border: none;
+}
+.btnMinus {
+    background: grey;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    /* margin: 0 auto;
+    display: block; */
+}
+.btnMinus:hover {
+    background: red;
+    transition: 0,5s;
+    border: none;
+}
+.btnX {
+    background: grey;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;   
+}
+.btnX:hover {
+    background: greenyellow;
+    transition: 0,5s;
+    border: none;
+}
+.btnY {
+    background: grey;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+}
+.btnY:hover {
+    background: darkred;
+    transition: 0,5s;
+    border: none;
+}
+.container-buttons {
+    text-align: center;
+    padding-top: 10px;
+}
+.container-buttons2 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.box-res {
+    text-align: center;
+}
+.res-text {
+    color: white;
+}
+.math {
+    width: 300px;
+    height: 40px;
+    background: white;
+    text-align: center;
+    color: orange;
+    border: solid orange;
+}
+.math:hover{
+    background: grey;
+    border-radius: 5px;
+    transform: scale(1,1);
+    transition: transform .4s;
+}
+.resnumb {
+    border: solid orange;
+    background: white;
+   max-width: 200px;
+   margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="calc.js" defer></script>
+    <!-- Чтобы скрипт отработал после загрузки дерева defer сделал -->
+</head>
+<body>
+    <div class="conNum">
+    <input type="number" id="fnum" class="numbone" placeholder="Введите первое число"
+    value="44">
+    <br>
+    <input type="number" id="snum" class="numsec" placeholder="Введите второе число" value="44">
+</div>
+<div class="container-buttons">
+    <button class="btnPlus" id="buttonplus">+</button>
+    <button class="btnMinus" id="buttonminus">-</button>
+</div>
+<div class="container-buttons2">
+    <button class="btnX" id="buttonx">*</button>
+    <button class="btnY" id="buttony">/</button>
+</div>
+<div class="box-res"><button class="math" id="math">Вычислить</button>
+<h4 class="res-text">Результат</h4>
+<p id="result" class="resnumb">...</p>
+</div>
+</body>
+</html>
